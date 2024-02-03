@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AAD_Q:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>AAD_Q</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="AAD_Q-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AAD_Q:war exploded" />
+    </root>
+  </artifact>
+</component>
